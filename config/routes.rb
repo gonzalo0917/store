@@ -1,6 +1,9 @@
 Store::Application.routes.draw do
   get "learn/index"
   get "learn/more"
+  get "learn/another_action"
+  get "learn/text"
+  get "learn/other"
   resources :products
 
   # The priority is based upon order of creation: first created -> highest priority.
